@@ -6,7 +6,7 @@ This is a machine learning web application that predicts whether a credit card t
 
 Financial fraud detection involves identifying suspicious transactions that may indicate fraudulent behavior. As digital financial systems grow, the need to detect such  has become increasingly important.
 
-This project aims to support this need by building a model that can accurately classify credit card transactions as either legitimate or fraudulent. The goal is to provide an interpretable, deployable fraud detection system for demonstration and educational purposes.
+This project aims to support this need by building a model that can accurately classify credit card transactions as either legitimate or fraudulent. The goal is to provide an interpretable, deployable fraud detection system for demonstration purposes.
 
 ---
 
@@ -67,6 +67,7 @@ pip install -r requirements.txt
 
 # Step 3: Run the Streamlit app
 streamlit run app.py
+```
 
 ## Try the Live App
 A Streamlit version of the app is hosted here:
