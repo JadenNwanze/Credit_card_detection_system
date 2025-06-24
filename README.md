@@ -4,7 +4,7 @@ This is a machine learning web application that predicts whether a credit card t
  
 ## Problem Statement
 
-Financial fraud detection involves identifying suspicious transactions that may indicate fraudulent behavior. As digital financial systems grow, the need to proactively detect such anomalies has become increasingly important.
+Financial fraud detection involves identifying suspicious transactions that may indicate fraudulent behavior. As digital financial systems grow, the need to detect such  has become increasingly important.
 
 This project aims to support this need by building a model that can accurately classify credit card transactions as either legitimate or fraudulent. The goal is to provide an interpretable, deployable fraud detection system for demonstration and educational purposes.
 
@@ -51,7 +51,7 @@ Due to its size, the dataset is tracked in the repository using Git Large File S
 
 ## SHAP Interpretability
 
-The application includes SHAP (SHapley Additive exPlanations) visualizations, which highlight which features contributed most to each model decision. This allows for a deeper understanding of how individual predictions are made.
+The application includes SHAP (SHapley Additive exPlanations) visualizations, which highlight which features contributed most to each of the model's decisions. This allows for a better understanding of how individual predictions are made.
 
 ---
 
