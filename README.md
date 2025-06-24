@@ -85,7 +85,7 @@ GitHub: https://github.com/JadenNwanze
 
 Email: Jadennwanze@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/jaden-nwanze-32579b29b/
+LinkedIn: [https://www.linkedin.com/in/jaden-nwanze-32579b29b/](https://www.linkedin.com/in/jadennwanze/)
 
 ## License
 This project is open-source and licensed under the MIT License.
