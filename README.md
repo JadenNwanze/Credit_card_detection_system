@@ -1,11 +1,7 @@
 # Credit Card Fraud Detection System (CCFDS)
 
-This is a machine learning web application that predicts whether a credit card transaction is fraudulent or legitimate. The system uses an ensemble model trained on a real-world dataset and includes SHAP-based explanations to make predictions transparent and understandable.
-
-Live Demo: https://creditcarddetectionsystem-egseuj4mjysbwzs6benygd.streamlit.app/
-
----
-
+This is a machine learning web application that predicts whether a credit card transaction present in used dataset is fraudulent or legitimate. The system uses an ensemble model trained on a real-world dataset.
+ 
 ## Problem Statement
 
 Financial fraud detection involves identifying suspicious transactions that may indicate fraudulent behavior. As digital financial systems grow, the need to proactively detect such anomalies has become increasingly important.
@@ -18,11 +14,12 @@ This project aims to support this need by building a model that can accurately c
 
 The dataset used was obtained from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud). It contains transactions made by European cardholders in September 2013. The data is highly imbalanced, with fraudulent transactions accounting for only 0.172% of the total.
 
+Note:
 Due to its size, the dataset is tracked in the repository using Git Large File Storage (Git LFS).
 
 ---
 
-## Methodology
+## Methodology utilized
 
 ### Preprocessing Techniques
 
@@ -70,3 +67,25 @@ pip install -r requirements.txt
 
 # Step 3: Run the Streamlit app
 streamlit run app.py
+
+## Try the Live App
+A Streamlit version of the app is hosted here:
+https://creditcarddetectionsystem-egseuj4mjysbwzs6benygd.streamlit.app/
+
+## About Me
+I’m a dedicated Computer Science student with a strong passion for Artificial Intelligence. I thrive on solving complex problems and am continually seeking opportunities to apply and expand my machine learning skills in practical, real-world projects.
+
+I developed this Credit Card Fraud Detection System (CCFDS) to explore how machine learning can be applied to high-stakes problems like financial fraud prevention. This project allowed me to dive deep into ensemble modeling, handling imbalanced data, model interpretability using SHAP, and deploying an interactive AI system using Streamlit.
+
+
+Contact info:
+
+GitHub: https://github.com/JadenNwanze
+
+Email: Jadennwanze@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/jaden-nwanze-32579b29b/
+
+## License
+This project is open-source and licensed under the MIT License.
+Feel free to use, modify, and distribute it with proper attributions.
