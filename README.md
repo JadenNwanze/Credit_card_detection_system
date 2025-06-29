@@ -87,6 +87,15 @@ Email: Jadennwanze@gmail.com
 
 LinkedIn: [https://www.linkedin.com/in/jaden-nwanze-32579b29b/](https://www.linkedin.com/in/jadennwanze/)
 
+## 🔗 Related Projects
+
+- **LeNet-5: CNN for Handwritten Digit Recognition**  
+  A faithful implementation of the classic LeNet-5 architecture from the paper *"Gradient-Based Learning Applied to Document Recognition"*. This project reinforces my understanding of convolutional neural networks (CNNs) and showcases my ability to reproduce foundational deep learning research.  
+   [GitHub Repository](github.com/JadenNwanze/lenet5-mnist-reproduction)
+
+
 ## License
 This project is open-source and licensed under the MIT License.
 Feel free to use, modify, and distribute it with proper attributions.
+
+
