@@ -1,0 +1,72 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/data_ingestion.py
+    deps:
+    - path: data/raw
+      hash: md5
+      md5: f2c7448614b9ec3d9e7e25dac874171f.dir
+      size: 150828752
+      nfiles: 1
+    - path: src/data_ingestion.py
+      hash: md5
+      md5: 2022b06ea4b3a89f1a92c431e144d08e
+      size: 119
+  data_Preprocessing:
+    cmd: python src/data_preprocessing.py
+    deps:
+    - path: src/data_preprocessing.py
+      hash: md5
+      md5: d4110593e1dfd0bce02d4dec71f3b0ec
+      size: 440
+  feature_engineering:
+    cmd: python src/feature_engineering.py
+    deps:
+    - path: src/feature_engineering.py
+      hash: md5
+      md5: e8aabc533a2e8a0090154f9b8e2c0075
+      size: 233
+  model_building:
+    cmd: python src/model_building.py
+    deps:
+    - path: data/raw/creditcard.csv
+      hash: md5
+      md5: e90efcb83d69faf99fcab8b0255024de
+      size: 150828752
+    - path: src/data_ingestion.py
+      hash: md5
+      md5: 2022b06ea4b3a89f1a92c431e144d08e
+      size: 119
+    - path: src/data_preprocessing.py
+      hash: md5
+      md5: d4110593e1dfd0bce02d4dec71f3b0ec
+      size: 440
+    - path: src/feature_engineering.py
+      hash: md5
+      md5: e8aabc533a2e8a0090154f9b8e2c0075
+      size: 233
+    - path: src/model_building.py
+      hash: md5
+      md5: c421c1c47a2010a3a176bb0f45e44111
+      size: 1556
+    outs:
+    - path: model.pkl
+      hash: md5
+      md5: ade2d6eced76a88c56cbef825c93325a
+      size: 130059
+  model_evaluation:
+    cmd: python src/model_evaluation.py
+    deps:
+    - path: model.pkl
+      hash: md5
+      md5: ade2d6eced76a88c56cbef825c93325a
+      size: 130059
+    - path: src/model_evaluation.py
+      hash: md5
+      md5: 12630a09065e9d1c8180f6bf1ede46a8
+      size: 962
+    outs:
+    - path: metrics.json
+      hash: md5
+      md5: 89638d6d2122a71e7f7e10e19fe0ed3c
+      size: 550
