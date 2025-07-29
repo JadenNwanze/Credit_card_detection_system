@@ -83,7 +83,8 @@ The codebase follows a modular programming paradigm
 ### Containerization
 - **Docker** is used to build and package the application with all its dependencies for consistent deployment across different computing devices.
 
-### Monitoring (Planned/Future Work)
+### Monitoring 
+Although no monitoring was done, but future integration of monitoring tools will be used
 - Integrating **Prometheus** and **Grafana** for real-time monitoring.
 - Adding **MLflow** for experiment tracking.
 
