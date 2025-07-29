@@ -35,7 +35,7 @@ Ensembled models were trained to improve prediction performance:
 - **XGBoost Classifier**
 - **Voting Classifier Ensemble**
 -  **SHAP Interpretability** to provide magnitude of influence of features
-- **SMOTE Technique ** for handling data imbalance which is natural in eal anomaly datasets
+- **SMOTE Technique** for handling data imbalance which is natural in eal anomaly datasets
 - **Pickle** for file serialization
 
 
@@ -61,10 +61,10 @@ This project incorporates the following MLOps tools and practices:
 
 ### Version Control
 - **Git**: All source code, notebooks, and experiments are version-controlled.
-- `.gitignore` is properly configured for data, models, and logs.
+- .gitignore is properly configured for data, models, and logs.
 
 ###  Dependency Management
-- `requirements.txt` is used to manage all Python package dependencies for reproducibility.
+- requirements.txt is used to manage all Python package dependencies for reproducibility.
 
 ###  Modular Project Structure
 
@@ -73,12 +73,12 @@ The codebase follows a modular programming paradigm
 ### Experiment Tracking
 - **DVC (Data Version Control)** is used for:
   - Tracking raw and processed data
-  - Managing model artifacts (`model.pkl`)
+  - Managing model artifacts (model.pkl)
   - Reproducing experiments
-  - Versioning `metrics.json`
+  - Versioning metrics.json
 
 ### Model Evaluation
-- Evaluation metrics are tracked and stored with `DVC` to ensure transparency and reproducibility.
+- Evaluation metrics are tracked and stored with DVC to ensure transparency and reproducibility.
 
 ### Containerization
 - **Docker** is used to build and package the application with all its dependencies for consistent deployment across different computing devices.
