@@ -89,5 +89,4 @@ Although no monitoring was done, but future integration of monitoring tools will
 - Adding **MLflow** for experiment tracking.
 
 ---
-### Experiment Tracking
-- **FastAPI** was used to develop a quick and efficient API
+
